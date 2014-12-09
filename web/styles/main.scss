@@ -1,2 +1,26 @@
-// sass --watch style/main.scss:style/main.css --style compressed
-@import "moduls/main-header";
+// sass --watch web/styles/main.scss:web/styles/main.css --style compressed
+
+//HELPERS
+@import "helpers/_functions";
+@import "helpers/_normalize";
+@import "helpers/_h5bp";
+//@import "helpers/_pesticide";
+
+//COMPONENTS
+@import "components/images";
+
+//MODULES
+@import "moduls/_main-header";
+
+.mid {
+  width: $page-width;
+  margin: 0 auto;
+  position: relative;
+}
+
+input[type=text]{
+  background: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 8px;
+}

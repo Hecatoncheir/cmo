@@ -19,6 +19,7 @@ pubspec.lock
 
 ## Directory-based project format:
 .idea/
+.sass-cache/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
