@@ -4,7 +4,7 @@
 @import "helpers/_functions";
 @import "helpers/_normalize";
 @import "helpers/_h5bp";
-//@import "helpers/_pesticide";
+// @import "helpers/_pesticide";
 
 //COMPONENTS
 @import "components/images";
@@ -12,16 +12,20 @@
 //MODULES
 @import "moduls/happy_new_year";
 @import "moduls/header";
+@import "moduls/main_cover";
 
 .mid {
-  width: $page-width;
   margin: 0 auto;
+
   position: relative;
+  width: $page-width;
 }
 
-input[type=text]{
-  background: #fff;
-  border: 0;
-  border-radius: 6px;
+input[type=text] {
   padding: 8px;
+
+  border: 0;
+  background: #fff;
+
+  border-radius: 6px;
 }

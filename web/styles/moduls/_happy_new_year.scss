@@ -1,13 +1,16 @@
 .happy_new_year {
   background: url('../images/happy_new_year/bg.png') repeat-x;
+
   display: block;
   height: 83px;
-  width: 100%;
+  min-width: 1240px;
   position: absolute;
+  width: 100%;
 }
 
 .happy_hat {
+  top: 10px;
+  left: 183px;
+
   position: absolute;
-  left: 184px;
-  top: 8px;
 }

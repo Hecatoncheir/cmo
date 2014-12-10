@@ -1,0 +1,30 @@
+@import '../components/news_content_slide';
+
+.main-cover {
+  height: 303px;
+  min-width: 1240px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cover-image {
+  background: url('../images/cover/main_cover_1.jpg') no-repeat;
+
+  background-size: cover;
+}
+
+.cover-news {
+  top: 0;
+  right: 15px;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: block;
+  float: right;
+  height: 302px;
+  position: absolute;
+  width: 367px;
+  // color: rgba(0, 0, 0, 0.5);
+}

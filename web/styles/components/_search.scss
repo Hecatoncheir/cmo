@@ -1,15 +1,15 @@
 .search {
+  display: inline-block;
+  float: right;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 15.83px;
-  float: right;
-  display: inline-block;
   margin-right: 16px;
   margin-top: 55px;
 
   input {
     color: #cdcece;
     font-size: 10.83px;
-    width: 247px - (8*2);
     outline: none;
+    width: 247px - (8*2);
   }
 }

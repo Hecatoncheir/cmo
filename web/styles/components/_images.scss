@@ -1,13 +1,25 @@
 //Pictures
 .CMOLogotype {
-  width: 240px;
-  height: 83px;
   background: url("../images/CMPLogotype.png") no-repeat;
+
+  height: 83px;
+  width: 240px;
 }
 
 .happy_hat {
-  width:58px ;
-  height: 41px;
-  display: block;
   background: url("../images/happy_new_year/happy_hat.png") no-repeat;
+
+  display: block;
+  height: 41px;
+  width: 58px ;
+}
+
+.showcase-arrow {
+  background: url('../images/news_block_slider_arrow.png') no-repeat;
+
+  cursor: pointer;
+  display: block;
+  height: 8px;
+  width: 19px;
+  z-index: 2;
 }
