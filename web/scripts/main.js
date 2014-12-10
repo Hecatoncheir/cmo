@@ -2,7 +2,7 @@ $(document).ready(function()
 {
 	$(".cover-news").awShowcase(
 	{
-		content_width:			340,
+		content_width:			370,
 		content_height:			280,
 		fit_to_parent:			false,
 		auto:					true,

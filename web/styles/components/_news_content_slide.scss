@@ -1,8 +1,8 @@
 .showcase-arrow-next {
   @extend .showcase-arrow;
 
-  left: 164px;
-  bottom: -270px;
+  left: 176px;
+  bottom: -268px;
 
   position: relative;
   transform: rotate(180deg);
@@ -11,7 +11,7 @@
 .showcase-arrow-previous {
   @extend .showcase-arrow;
 
-  top: 20px;
+  top: 13px;
 
   margin: 0 auto;
 
@@ -32,8 +32,8 @@
 
 .showcase-button-wrapper {
   float: right;
-  margin-right: -85px;
-  margin-top: -150px;
+  margin-right: -80px;
+  margin-top: -153px;
   text-align: center;
   transform: rotate(90deg);
   // width: 300px;
