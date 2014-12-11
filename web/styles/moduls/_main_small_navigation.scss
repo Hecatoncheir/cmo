@@ -1,0 +1,25 @@
+.main-small-navigation {
+	clear: both;
+	display: block;
+	width: 100%;
+	text-align: justify;
+
+	a {
+		color: #383838;
+		font-family: "Arial";
+		font-size: 21px;
+		font-weight: 400;
+		text-decoration: none;
+		width: 156px;
+		height: 50px;
+		text-align: cneter;
+		padding: 5px;
+		display: block;
+		float: left;
+		margin-right: 40px;
+	}
+
+	a:hover {
+		background: #e5e5e5;
+	}
+}
