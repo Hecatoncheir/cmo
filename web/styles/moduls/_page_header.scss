@@ -1,4 +1,5 @@
 @import "../components/search";
+@import "../components/main_menu";
 
 .page-header {
   background: #11568d;
@@ -12,29 +13,6 @@
   float: left;
   margin-left: 14px;
   margin-top: 16px;
-}
-
-//HEADER TOP MENU
-.main-menu {
-  float: left;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  margin-left: 57px - 12;
-  margin-top: 45px;
-  a {
-    color: #fff;
-    font-size: 29.17px;
-    margin-right: 131px;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  a:last-child {
-    margin-left: -27px;
-    margin-right: 0;
-  }
 }
 
 //TOP RIGHT HEADER MENU
