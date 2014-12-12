@@ -35,3 +35,11 @@ $(document).ready(function()
 		custom_function:		null /* Define a custom function that runs on content change */
 	});
 });
+
+
+var container = document.querySelector('.main-news');
+var msnry = new Masonry( container, {
+  // options
+  columnWidth: 12,
+  itemSelector: '.news'
+});
