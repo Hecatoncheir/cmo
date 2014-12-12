@@ -1,0 +1,24 @@
+.page-footer {
+
+  background: #e6e6e6;
+
+  clear: both;
+  height: 40px;
+  width: 100%;
+  
+  // margin-top: 20px;
+  // 
+  // FIX
+  bottom: 0;
+  position: fixed;
+
+  nav {
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    a {
+      float: left;
+      margin-left: 15px;
+    }
+  }
+}
