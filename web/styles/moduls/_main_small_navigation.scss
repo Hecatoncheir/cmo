@@ -10,16 +10,21 @@
 		font-size: 21px;
 		font-weight: 400;
 		text-decoration: none;
-		width: 156px;
-		height: 50px;
-		text-align: cneter;
-		padding: 5px;
+		min-width: 156px;
+		height: 40px;
+		text-align: center;
+		padding: 8px 3px 0 3px;
 		display: block;
 		float: left;
-		margin-right: 40px;
+		margin-right: 30px;
+		margin-left: 50px;
 	}
 
 	a:hover {
 		background: #e5e5e5;
+	}
+
+	a:last-child {
+		margin-right: 0;
 	}
 }
