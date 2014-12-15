@@ -11,8 +11,6 @@
 	}
 
 	.section {
-		padding: 14px 24px;
-		// margin-bottom: 24px;
 		clear: both;
 	}
 
@@ -21,19 +19,34 @@
 	}
 
 	.section > li > a {
-		width: 275px;
 		color: #969696;
-		height: 56px;
 		font-family: "Arial";
 		font-size: 14px;
+		margin-left: -38px;
+		padding: 7px 24px;
 	}
 
-	.section > li > a:hover {
-		backgroumnd: #f3f3f3;
-		width: 275px;
+.section > li > a:hover {
+	background: #f3f3f3;
+}
+
+.section ul a {
+	color: #11568D;
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 400;
+	margin-left: -70px;
+	max-width: 275px;
+}
+
+	.section ul a:hover {
+		color: #969696;
 	}
 
-	.section > li > a > ul > a:before {
-		content: '*';
-	}
+.section ul a:before {
+	content: '.';
+	margin-right: 10px;
+	position: relative;
+	top: -5px;
+}
 }

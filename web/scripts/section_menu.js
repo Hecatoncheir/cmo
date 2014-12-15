@@ -1,5 +1,6 @@
   $(document).ready(function() {
-    $('.section > li > a').on('click', function() {
+    var tags = $('.section li a');
+    tags.on('click', function() {
       $(this).removeAttr('href');
       var element = $(this).parent('li');
       if (element.hasClass('open')) {

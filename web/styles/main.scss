@@ -4,7 +4,8 @@
 @import "helpers/_functions";
 @import "helpers/_normalize";
 @import "helpers/_h5bp";
-// @import "helpers/_pesticide";
+//DEBUD
+//@import "helpers/_pesticide";
 
 //COMPONENTS
 @import "components/images";
@@ -12,6 +13,8 @@
 @import "components/icons";
 @import "components/tile_news";
 @import "components/pages_styles_format";
+@import "components/breadcrumbs";
+@import "components/rapid_transition";
 
 //MODULES
 @import "moduls/happy_new_year";
@@ -21,6 +24,7 @@
 @import "moduls/main_small_navigation.scss";
 @import "moduls/main_news.scss";
 @import "moduls/section_menu.scss";
+@import "moduls/main_contnet_924.scss";
 
 body {
   // FOR FOOTER FIX

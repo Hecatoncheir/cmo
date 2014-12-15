@@ -1,0 +1,34 @@
+.breadcrumbs {
+  width: 100%;
+  a {
+    color: #787878;
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+    float: left;
+  }
+
+  a:before {
+    content: '';
+    background: url("../images/breadcrumbs_arrow.png") no-repeat 3px 4px;
+    padding: 0 5px;
+    margin-left: 5px;
+    width: 6px;
+    height: 9px+4;
+    display: block;
+    float: left;
+    text-decoration: none;
+  }
+
+  a:first-child {
+    text-decoration: none;
+  }
+  a:first-child:before{
+    content: '';
+    background: none;
+    padding: 0;
+    margin: 0;
+  }
+
+}

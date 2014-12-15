@@ -1,0 +1,32 @@
+.rapid-transition {
+  float: right;
+  select {
+    background: #184A80;
+    color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 325px;
+    padding: 2px 5px;
+    padding-left: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 0;
+    border: 0 none;
+    outline: none;
+  }
+
+}
+
+
+.rapid-transition:after {
+  content: '';
+  display: block;
+  background: url("../images/rapid_transition_arrow.png") no-repeat;
+  width: 15px;
+  height: 6px;
+  float: right;
+  position: relative;
+  top: -15px;
+  right: 10px;
+}
