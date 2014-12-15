@@ -1,0 +1,39 @@
+.sections-menu {
+	width: 275px;
+	float: left;
+	display: block;
+
+	li, a {
+		display: block;
+		clear: both;
+		text-decoration: none;
+		color: #11568d;
+	}
+
+	.section {
+		padding: 14px 24px;
+		// margin-bottom: 24px;
+		clear: both;
+	}
+
+	.section > li {
+		// margin-top: 14px;
+	}
+
+	.section > li > a {
+		width: 275px;
+		color: #969696;
+		height: 56px;
+		font-family: "Arial";
+		font-size: 14px;
+	}
+
+	.section > li > a:hover {
+		backgroumnd: #f3f3f3;
+		width: 275px;
+	}
+
+	.section > li > a > ul > a:before {
+		content: '*';
+	}
+}
