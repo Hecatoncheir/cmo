@@ -1,56 +1,58 @@
 .sections-menu {
-	width: 275px;
-	float: left;
-	display: block;
+  display: block;
+  float: left;
+  width: 275px;
 
-	li, a {
-		display: block;
-		clear: both;
-		text-decoration: none;
-		color: #11568d;
-	}
+  li, a {
+    clear: both;
+    color: #11568d;
+    display: block;
+    text-decoration: none;
+  }
 
-	.section {
-		clear: both;
-	}
+  .section {
+    clear: both;
+  }
 
-	.section > li {
-		// margin-top: 14px;
-	}
+  .section > li {
+    // margin-top: 14px;
+  }
 
-	.section > li > a {
-		color: #969696;
-		font-family: "Arial";
-		font-size: 14px;
-		margin-left: -38px;
-		padding: 7px 24px;
-	}
+  .section > li > a {
+    padding: 7px 24px;
 
-.section > li > a:hover {
-	background: #f3f3f3;
-}
+    color: #969696;
+    font-family: "Arial";
+    font-size: 14px;
+    margin-left: -38px;
+  }
 
-.section ul a {
-	color: #11568D;
-	font-family: "Arial";
-	font-size: 15px;
-	font-weight: 400;
-	max-width: 275px;
-}
+  .section > li > a:hover {
+    background: #f3f3f3;
+  }
 
-	.section ul a:hover {
-		color: #969696;
-	}
+  .section ul a {
+    color: #11568d;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 275px;
+  }
 
-.section ul a:before {
-	content: '.';
-	margin-right: 10px;
-	position: relative;
-	top: -5px;
-}
-	
-	.sub-section ul {
-		margin-left: -70px;
-		paddgin-left: 25px;
-	}
+  .section ul a:hover {
+    color: #969696;
+  }
+
+  .section ul a:before {
+    top: -5px;
+
+    content: '.';
+    margin-right: 10px;
+    position: relative;
+  }
+
+  .sub-section ul {
+    margin-left: -70px;
+    paddgin-left: 25px;
+  }
 }

@@ -1,32 +1,37 @@
 .serial-items {
-  width: 100%;
   clear: both;
   display: block;
   padding-top: 20px;
+  width: 100%;
 
   .item {
-    background-size: contain;
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
-    width: 290px;
-    height: 325px;
-    display: inline-block;
-    overflow: hidden;
-    float: left;
-    position: relative;
     margin: 0 26px 26px 0;
+
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    height: 325px;
+    overflow: hidden;
+    position: relative;
+    width: 290px;
 
     .description {
       @extend .news-content;
-      margin-top: 220px;
+
       padding: 25px 15px;
 
+      margin-top: 220px;
+
       header {
-        padding: 25px 0;
-        position: relative;
         top: -10px;
-        width: 80%;
+
         margin: 0 auto;
+        padding: 25px 0;
+
+        position: relative;
+        width: 80%;
       }
 
       header:after {
@@ -44,12 +49,11 @@
     }
 
     .main-open-button {
-      margin: 0 70px
+      margin: 0 70px;
     }
   }
 
-  .item:nth-child(3n){
+  .item:nth-child(3n) {
     margin-right: 0;
   }
-
 }

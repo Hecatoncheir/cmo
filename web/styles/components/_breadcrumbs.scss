@@ -2,33 +2,36 @@
   width: 100%;
   a {
     color: #787878;
+    float: left;
     font-family: "Arial";
     font-size: 13px;
     font-weight: 400;
     text-decoration: underline;
-    float: left;
   }
 
   a:before {
-    content: '';
-    background: url("../images/breadcrumbs_arrow.png") no-repeat 3px 4px;
     padding: 0 5px;
-    margin-left: 5px;
-    width: 6px;
-    height: 9px+4;
+
+    background: url("../images/breadcrumbs_arrow.png") no-repeat 3px 4px;
+
+    content: '';
     display: block;
     float: left;
+    height: 9px+4;
+    margin-left: 5px;
     text-decoration: none;
+    width: 6px;
   }
 
   a:first-child {
     text-decoration: none;
   }
-  a:first-child:before{
-    content: '';
-    background: none;
-    padding: 0;
+  a:first-child:before {
     margin: 0;
-  }
+    padding: 0;
 
+    background: none;
+
+    content: '';
+  }
 }

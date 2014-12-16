@@ -3,32 +3,34 @@
   margin-top: 40px;
   padding-left: 35px;
   .item {
-    width: 386px;
-    float: left;
     margin: 5px;
+
+    float: left;
     margin-bottom: 26px;
+    width: 386px;
     .item-preview {
-      width: 100px;
       display: block;
       float: left;
+      width: 100px;
       img {
-        width: auto;
+        margin: 0 auto;
+
         height: auto;
         max-height: 188px;
-        margin: 0 auto;
+        width: auto;
       }
     }
     .description {
       float: right;
-      width: 280-15px;
       padding-left: 6px;
       padding-right: 15px;
+      width: 280-15px;
 
       header {
+        color: #0c4b87;
         font-family: Arial, sans-serif;
         font-size: 17px;
         font-weight: bold;
-        color: #0c4b87;
       }
 
       nav {
@@ -36,9 +38,9 @@
       }
 
       a {
-        float: left;
         clear: both;
         color: #646464;
+        float: left;
         text-decoration: none;
       }
       a:hover {
@@ -48,11 +50,10 @@
   }
 
   .item:nth-child(3n):after {
-    content: '';
     clear: both;
+    content: '';
   }
   .item:nth-child(7) {
     clear: both;
   }
-
 }

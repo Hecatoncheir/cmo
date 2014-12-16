@@ -16,18 +16,19 @@
   p {
     font-size: 14.75px;
   }
-  
-  .page-name {
-    width: 95.4%;
-    clear: both;
-    display: inline-block;
-    background: #184A80;
-    color: #fff;
-    font-family: 'Arial';
-    font-weight: bold;
-    font-size: 17px;
-    padding: 3px 22px;
-    margin-top: 34px;
 
+  .page-name {
+    padding: 3px 22px;
+
+    background: #184a80;
+
+    clear: both;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 34px;
+    width: 95.4%;
   }
 }
