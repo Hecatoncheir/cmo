@@ -35,7 +35,6 @@
 	font-family: "Arial";
 	font-size: 15px;
 	font-weight: 400;
-	margin-left: -70px;
 	max-width: 275px;
 }
 
@@ -49,4 +48,9 @@
 	position: relative;
 	top: -5px;
 }
+	
+	.sub-section ul {
+		margin-left: -70px;
+		paddgin-left: 25px;
+	}
 }
