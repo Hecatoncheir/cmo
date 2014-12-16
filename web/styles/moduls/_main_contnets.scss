@@ -11,3 +11,8 @@
     width: 100%;
   }
 }
+
+.main-content {
+  @extend .main-content-924;
+  width: 100%;
+}
