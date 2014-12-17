@@ -5,22 +5,23 @@
 }
 
 .item-description {
+  color: #515151;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 13px;
-  color: #515151;
 }
 
 .items-preview-images {
-  width: 440px;
-  float: left;
   display: block;
+  float: left;
+  width: 440px;
 
   a {
-    float: left;
-    width: 90px;
     margin: 10px 5px;
+
     display: block;
+    float: left;
     height: 90px;
+    width: 90px;
 
     img {
       width: 100%;
@@ -28,12 +29,14 @@
   }
 
   a:first-child {
-    width: 80%;
     margin: 0 auto;
+
     height: auto;
+    width: 80%;
     img {
-      width: 100%;
       margin: 0 auto;
+
+      width: 100%;
     }
   }
 }
