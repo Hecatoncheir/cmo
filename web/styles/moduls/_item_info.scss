@@ -1,0 +1,39 @@
+@import "../components/fancybox";
+
+.item-info {
+  padding-top: 40px;
+}
+
+.item-description {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  color: #515151;
+}
+
+.items-preview-images {
+  width: 440px;
+  float: left;
+  display: block;
+
+  a {
+    float: left;
+    width: 90px;
+    margin: 10px 5px;
+    display: block;
+    height: 90px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  a:first-child {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    img {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
