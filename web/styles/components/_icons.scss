@@ -8,10 +8,32 @@
 
 .ruble-icon {
   background: url("../images/ruble.png") no-repeat;
-  width: 13px;
-  height: 18px;
+
   display: inline-block;
+  height: 18px;
+  width: 13px;
 }
+
+.tab-icon {
+  background: url('../images/tab-icons.png') no-repeat;
+
+  display: inline-block;
+  height: 24px;
+  width: 26px;
+}
+
+.tab-1-icon {
+  @extend .tab-icon;
+
+  background-position: 0 -24px;
+}
+
+.current {
+  .tab-1-icon {
+    background-position: 0 0;
+  }
+}
+
 
 .tw-icon {
   background-position: center 0;

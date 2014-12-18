@@ -1,4 +1,5 @@
 @import "../components/fancybox";
+@import "../components/tabs";
 
 .item-info {
   padding-top: 40px;
@@ -38,5 +39,16 @@
 
       width: 100%;
     }
+  }
+}
+
+.cost {
+  font-family: 'Arial';
+  font-size: 17px;
+
+  .ruble-icon {
+    top: 4px;
+
+    position: relative;
   }
 }
