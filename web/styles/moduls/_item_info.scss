@@ -45,6 +45,22 @@
 .cost {
   font-family: 'Arial';
   font-size: 17px;
+  width: 450px;
+
+
+  span {
+    color: #184a80;
+  }
+
+  .where-buy {
+    float: right;
+    font-size: 18px;
+    padding-right: 40px;
+    text-decoration: underline;
+    a {
+      color: #184a80;
+    }
+  }
 
   .ruble-icon {
     top: 4px;

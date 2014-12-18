@@ -24,26 +24,31 @@
 
 .tab-1-icon {
   @extend .tab-icon;
+
   background-position: 0 -24px;
 }
 
 .tab-2-icon {
   @extend .tab-icon;
+
   background-position: -26px -24px;
 }
 
 .tab-3-icon {
   @extend .tab-icon;
+
   background-position: -26px*2 -24px;
 }
 
 .tab-4-icon {
   @extend .tab-icon;
+
   background-position: -26px*3 -24px;
 }
 
 .tab-5-icon {
   @extend .tab-icon;
+
   background-position: -26px*4 -24px;
 }
 
@@ -53,24 +58,28 @@
   }
 
   .tab-2-icon {
-  @extend .tab-icon;
-  background-position: -26px 0;
-}
+    @extend .tab-icon;
 
-.tab-3-icon {
-  @extend .tab-icon;
-  background-position: -26px*2 0;
-}
+    background-position: -26px 0;
+  }
 
-.tab-4-icon {
-  @extend .tab-icon;
-  background-position: -26px*3 0;
-}
+  .tab-3-icon {
+    @extend .tab-icon;
 
-.tab-5-icon {
-  @extend .tab-icon;
-  background-position: -26px*4  0;
-}
+    background-position: -26px*2 0;
+  }
+
+  .tab-4-icon {
+    @extend .tab-icon;
+
+    background-position: -26px*3 0;
+  }
+
+  .tab-5-icon {
+    @extend .tab-icon;
+
+    background-position: -26px*4  0;
+  }
 }
 
 
