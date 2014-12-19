@@ -110,3 +110,22 @@
 .lj-icon {
   background-position: center -22px*6;
 }
+
+//Scroll icons
+
+.scroll-arrow-icon {
+  @extend .scroll-arrow-icon-down;
+  transform: rotate(180deg);
+  top: 20px;
+  right: 20px;
+}
+
+.scroll-arrow-icon-down {
+  background: url("../../images/scroll_arrow.png") no-repeat;
+  width: 7px;
+  height: 4px;
+  display: block;
+  position: absolute;
+  bottom: -12px;
+  right: -6px;
+}

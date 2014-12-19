@@ -1,0 +1,51 @@
+.mCustomScrollbar {
+//  margin-left: 0px;
+  margin-right: 20px;
+  width: 340px;
+}
+
+#mCSB_1_container {
+  padding-left: 20px;
+}
+
+.mCustomScrollBox {
+  margin-left: -40px;
+  width: 310px;
+  padding-right: 20px;
+  margin-right: 20px;
+  background: #fff;
+  padding-left: 20px;
+
+}
+
+.mCSB_scrollTools {
+  display: block !important;
+  background: #EDEFF0 !important;
+}
+
+.mCSB_scrollTools_vertical {
+  right: -10px;
+  padding-right: 20px;
+}
+
+.mCSB_inside > .mCSB_container {
+  margin-right: 0 !important;
+}
+
+.mCSB_button_Up {
+  background: url("../../images/scroll_arrow.png") no-repeat !important;
+  width: 7px !important;
+  height: 4px !important;
+  display: block !important;
+}
+
+.mCSB_draggerRail {
+  background: none !important;
+}
+
+.mCSB_dragger_bar {
+  background: #bcbcbc !important;
+  border: 1px solid #9C9C9C !important;
+  width: 13px !important;
+  border-radius: 0 !important;
+}
