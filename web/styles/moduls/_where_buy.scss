@@ -8,10 +8,16 @@
   aside {
     float: right;
     width: 384px;
+    margin-bottom: 20px;
 
     .aside-content {
       padding: 22px;
       background: #f1f2f3;
+      margin-bottom: 20px;
+    }
+
+    .aside-content:last-child {
+      margin-bottom: 0;
     }
 
     form {
@@ -45,4 +51,63 @@
       font-size: 12px;
     }
   }
+}
+
+.region-information {
+  clear: both;
+  background: #f1f2f3;
+  width: 100%;
+
+  .mid {
+    padding-left: 12px;
+    padding-right: 20px;
+  }
+
+  .region-name {
+    min-height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  .region-name:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  .point-of-sale {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    float: left;
+    display: block;
+    margin-right: 35px;
+    width: 585px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+
+    header {
+      color: #0c4b87;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    span {
+      clear: both;
+      float: left;
+      margin-bottom: 3px;
+    }
+
+    b {
+      float: left;
+      font-weight: normal;
+    }
+
+    a {
+      color: #416692;
+      text-decoration: none;
+    }
+  }
+
 }
