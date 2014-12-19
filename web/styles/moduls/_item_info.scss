@@ -46,6 +46,9 @@
   font-family: 'Arial';
   font-size: 17px;
   width: 450px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 
   span {
@@ -53,10 +56,11 @@
   }
 
   .where-buy {
-    float: right;
+    float: left;
     font-size: 18px;
-    padding-right: 40px;
+    padding-right: 10px;
     text-decoration: underline;
+    text-align: left;
     a {
       color: #184a80;
     }

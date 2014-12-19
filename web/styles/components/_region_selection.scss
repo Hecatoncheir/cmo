@@ -16,11 +16,11 @@
     padding-right: 20px;
   	cursor: pointer;
     z-index: 9;
-    background: url('../../images/region_list_arrow.png') no-repeat 270px 2px;
+    background: url('../images/region_list_arrow.png') no-repeat 270px 2px;
   }
 
   .region-list:hover {
-    background: url("../../images/region_list_arrow_down.png") no-repeat 270px 2px;
+    background: url("../images/region_list_arrow_down.png") no-repeat 270px 2px;
   }
 
   li {
@@ -39,5 +39,9 @@
   		font-size: 15px;
   		text-decoration: none;
   	}
+
+    a:hover {
+      color: #585858;
+    }
   }
 }
